@@ -1,0 +1,109 @@
+/* GENERAL PAGE STYLE */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:#4b3f72;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+header p{
+    margin:5px 0;
+}
+
+/* NAVIGATION */
+
+nav{
+    background:#6c5ce7;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* MAIN CONTENT */
+
+main{
+    width:80%;
+    margin:auto;
+    padding:30px;
+    background:white;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#4b3f72;
+}
+
+/* IMAGE */
+
+.profile-img{
+    width:200px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+/* LIST */
+
+ul{
+    padding-left:20px;
+}
+
+/* CONTACT FORM */
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#6c5ce7;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#4b3f72;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    padding:20px;
+    background:#4b3f72;
+    color:white;
+}
